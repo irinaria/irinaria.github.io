@@ -777,4 +777,106 @@ body.menu-shown .icon-menu:after {
   }
 }
 
+/* animation */
+.waypoint {
+  position: relative;
+}
+.waypoint-1 {
+  opacity: 0;
+  transform: translate(-30px, 0);
+  transition: all 0.5s ease 200ms;
+}
+.waypoint-1.activated {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.waypoint-2 {
+  opacity: 0;
+  transform: translate(-30px, 0);
+  transition: all 0.5s ease 400ms;
+}
+.waypoint-2.activated {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.waypoint-3 {
+  opacity: 0;
+  transform: translate(-30px, 0);
+  transition: all 0.5s ease 600ms;
+}
+.waypoint-3.activated {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.waypoint-4 {
+  opacity: 0;
+  transition: opacity 0.666s ease 0ms;
+}
+.waypoint-4:before {
+  opacity: 0;
+  transition: opacity 0.666s ease 150ms;
+}
+.waypoint-4.activated {
+  opacity: 1;
+}
+.waypoint-4.activated:before {
+  opacity: 1;
+}
+.waypoint-5 {
+  opacity: 0;
+  transition: opacity 0.666s ease 300ms;
+}
+.waypoint-5:before {
+  opacity: 0;
+  transition: opacity 0.666s ease 450ms;
+}
+.waypoint-5.activated {
+  opacity: 1;
+}
+.waypoint-5.activated:before {
+  opacity: 1;
+}
+.waypoint-6 {
+  opacity: 0;
+  transition: opacity 0.666s ease 600ms;
+}
+.waypoint-6:before {
+  opacity: 0;
+  transition: opacity 0.666s ease 750ms;
+}
+.waypoint-6.activated {
+  opacity: 1;
+}
+.waypoint-6.activated:before {
+  opacity: 1;
+}
+.waypoint-7 {
+  opacity: 0;
+  transition: opacity 0.666s ease 900ms;
+}
+.waypoint-7:before {
+  opacity: 0;
+  transition: opacity 0.666s ease 1050ms;
+}
+.waypoint-7.activated {
+  opacity: 1;
+}
+.waypoint-7.activated:before {
+  opacity: 1;
+}
+.waypoint-8 {
+  opacity: 0;
+  transition: opacity 0.666s ease 1200ms;
+}
+.waypoint-8:before {
+  opacity: 0;
+  transition: opacity 0.666s ease 1350ms;
+}
+.waypoint-8.activated {
+  opacity: 1;
+}
+.waypoint-8.activated:before {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -63,4 +63,21 @@ $(document).ready(function(){
         }
 
     });
+
+
+    // animation
+    var wp_intro = $('.intro__content').waypoint(function(direction) {
+        for (var i = 1; i <= 3; i++){
+            $('.waypoint-'+i).addClass('activated');
+        }
+    }, {
+        offset: '66%'
+    });
+    var wp_order = $('.order__steps').waypoint(function(direction) {
+        for (var i = 4; i <= 8; i++){
+            $('.waypoint-'+i).addClass('activated');
+        }
+    }, {
+        offset: '66%'
+    });
 });
